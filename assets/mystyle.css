@@ -15,10 +15,6 @@ a:link {
 a:visited {
     color: white;
 }
-div{
-    
-    
-}
 .logo{
     height: 50px;
     width: 100px;
@@ -41,7 +37,7 @@ header{
 nav{
 /*     padding:auto; */
 }
-nav a:link{
+nav a:link,nav a:visited{
     color: #CF2C30;
 }
 .navbar-buttons{
@@ -192,3 +188,46 @@ footer{
     flex-direction: row;
     justify-content: space-between;
 }
+h1,h4{
+    font-weight:bolder;
+}
+.title{
+    text-align: center;
+}
+.filter-bar{
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+}
+.product-row{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+.product-container-25perc{
+    width: 25%;
+    margin:0;
+    /* text-align: center; */
+}
+.product-container-50perc{
+    width: 50%;
+    margin:0;
+    /* text-align: center; */
+}
+.img-container{
+    width:100% ;
+}
+.product-container-25perc>p{
+    text-align: center;
+    line-height: 1.5;
+    margin: 4px 0;
+}
+.product-container-50perc>p{
+    text-align: center;
+    line-height: 1.5;
+    margin: 4px 0;
+}
+.product-row>.product-container-25perc:not(:last-child),.product-row>.product-container-50perc:not(:last-child){
+    padding-right: 12px;
+}
+
