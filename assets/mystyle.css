@@ -20,6 +20,11 @@ a.products-page-link:link,a.products-page-link:visited{
     text-align: center;
     margin: 0px;
 }
+a.black:link,a.black:visited{
+    color:black;
+    text-align: center;
+
+}
 .logo{
     height: 50px;
     width: 100px;
@@ -188,6 +193,11 @@ footer{
     width: 18px;
     vertical-align: middle;
 }
+.icon-filter{
+    height: 12px;
+    width: 12px;
+    vertical-align: middle;
+}
 .container-footer{
     display:flex;
     flex-direction: row;
@@ -200,9 +210,14 @@ h1,h4{
     text-align: center;
 }
 .filter-bar{
-    display: flex;
-    flex-direction: row;
-    padding: 0 10px;
+    display: grid;
+    grid-template-columns: 160px 120px 120px 120px auto 140px;
+    list-style-type: none;
+    grid-gap:20px;
+    padding: 0;
+    justify-items: center;
+    align-items: center;
+    margin:0;
 }
 .product-row{
     display: flex;
