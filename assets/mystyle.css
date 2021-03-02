@@ -15,6 +15,11 @@ a:link {
 a:visited {
     color: white;
 }
+a.products-page-link:link,a.products-page-link:visited{
+    color:black;
+    text-align: center;
+    margin: 0px;
+}
 .logo{
     height: 50px;
     width: 100px;
@@ -214,15 +219,8 @@ h1,h4{
     margin:0;
     /* text-align: center; */
 }
-.img-container{
-    width:100% ;
-}
-.product-container-25perc>p{
-    text-align: center;
-    line-height: 1.5;
-    margin: 4px 0;
-}
-.product-container-50perc>p{
+
+.products-page-link>p{
     text-align: center;
     line-height: 1.5;
     margin: 4px 0;
