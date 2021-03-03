@@ -245,7 +245,7 @@ h1,h4{
 }
 .product-page-grid{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 8fr 5fr;
     gap: 10px;
     margin-bottom: 30px;
 }
@@ -293,4 +293,49 @@ h1,h4{
 }
 .product-row:last-of-type{
     margin-bottom: 20px;
+}
+.size-numbers{
+    border-radius: 30px;
+    border:2px solid lightgray;
+    width:fit-content;
+    padding: 2px;
+    display: inline-block;
+    font-size: 14px;
+}
+.product-bar{
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: 290px 20px;
+    border-bottom: solid black 1px;
+}
+.caracteristicas-tecnicas{
+    background-color: #DFDFDE;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 8px;
+    font-size: 12px;
+    padding: 5px;
+}
+.caracteristicas-tecnicas-subgrid{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    align-items: center;
+}
+.img-caracteristicas-tecnicas{
+    width: 30px;
+    display: inline-block;
+    vertical-align:middle;
+}
+.buy-button{
+    background-color: CF2C30;
+    color: white;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    margin:5px 0;
+}
+.buy-button>a{
+    line-height: 1.8;
+    /* To make bigger the link */
 }
